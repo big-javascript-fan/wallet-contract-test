@@ -1,0 +1,19 @@
+node_modules/
+yarn-error.log
+.env
+.nyc_output
+coverage
+build/
+
+# Ignore sonnar scanner
+.scannerwork/
+
+# Ignore log
+*.log
+.github/workflows/*
+.test.xyz
+
+# Ignore tmp
+tmp/
+
+**/.DS_Store
